@@ -60,7 +60,7 @@ const Hero = () => {
           >
             FUNDACIÓN BOLIVIA <br />
             <span className="text-brand-beige italic font-light">INTERCULTURAL</span> <br />
-            <span className="text-4xl md:text-6xl lg:text-7xl block mt-2 opacity-90">PARA EL DESARROLLO</span>
+            <span className="text-4xl md:text-6xl lg:text-7xl block mt-2 opacity-90">POR EL DESARROLLO</span>
           </motion.h1>
 
           <motion.div 
