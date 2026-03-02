@@ -17,11 +17,7 @@ const QuienesSomos = () => {
         
         <motion.div style={{ x }} className="flex w-[300vw] h-full">
           
-          {/* ========================================================= */}
-          {/* PANTALLA 1: Introducción (Fondo Beige) */}
-          {/* ========================================================= */}
           <div className="w-[100vw] h-full relative flex items-start p-10 md:p-20 pt-32">
-            {/* Elemento decorativo de fondo para llenar vacío */}
             <div className="absolute top-20 left-10 font-title text-[20rem] text-[#30928f]/5 select-none pointer-events-none">
               01
             </div>
@@ -59,10 +55,6 @@ const QuienesSomos = () => {
               </div>
             </div>
           </div>
-
-          {/* ========================================================= */}
-          {/* PANTALLA 2: El Bloque Central (Líneas y Estilo) */}
-          {/* ========================================================= */}
           <div className="w-[100vw] h-full relative flex items-center justify-center p-12">
             <div className="w-full h-[90vh] bg-brand-blue relative border-[6px] border-[#30928f] p-12 md:p-24 flex flex-col justify-center">
               <div className="absolute top-2 left-2 w-8 h-8 border-t-4 border-l-4 border-[#30928f]"></div>
@@ -70,7 +62,6 @@ const QuienesSomos = () => {
               <div className="absolute bottom-2 left-2 w-8 h-8 border-b-4 border-l-4 border-[#30928f]"></div>
               <div className="absolute bottom-2 right-2 w-8 h-8 border-b-4 border-r-4 border-[#30928f]"></div>
               
-              {/* Rayas decorativas de fondo para llenar el vacío */}
               <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
                 {[...Array(20)].map((_, i) => (
                   <div key={i} className="h-full w-[1px] bg-[#30928f] absolute" style={{ left: `${i * 5}%` }} />
@@ -107,9 +98,6 @@ const QuienesSomos = () => {
             </div>
           </div>
 
-          {/* ========================================================= */}
-          {/* PANTALLA 3: Los Pasos (Más grande y centrada) */}
-          {/* ========================================================= */}
           <div className="w-[100vw] h-full relative flex items-center p-10 md:p-32 bg-[#30928f]">
             <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
               
@@ -129,7 +117,7 @@ const QuienesSomos = () => {
                     Inmersión
                   </h4>
                   <p className="font-body text-white/80 text-xl leading-relaxed">
-                    Investigamos dónde estamos y de dónde venimos. Protegemos el archivo histórico para entender nuestro presente y diseñar el futuro.
+                    Investigamos y contactamos con distintos fondos tanto Nacionales como Internacionales
                   </p>
                 </div>
 
@@ -139,7 +127,7 @@ const QuienesSomos = () => {
                     Acción Real
                   </h4>
                   <p className="font-body text-white/80 text-xl leading-relaxed">
-                    Llevamos las ideas a estrategias, talleres y espacios artísticos. Traducimos la cultura en impacto social tangible.
+                    Llevamos estas ideas y estrategias usando el capital recolectado a la realidad.
                   </p>
                   <button className="mt-10 border-2 border-white text-white px-10 py-4 font-bold font-body uppercase text-sm hover:bg-white hover:text-[#30928f] transition-all">
                     Ver Proceso Completo
