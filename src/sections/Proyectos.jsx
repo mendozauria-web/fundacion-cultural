@@ -4,7 +4,7 @@ const ProyectosProximos = () => {
   const categorias = [
     { id: "01", titulo: "Educación", descripcion: "Programas de formación cultural para jóvenes líderes." },
     { id: "02", titulo: "Salud", descripcion: "Digitalización y preservación del patrimonio histórico boliviano." },
-    { id: "03", titulo: "oBRA PUBLICAS", descripcion: "Intervenciones artísticas que transforman el espacio público." }
+    { id: "03", titulo: "Saneamiento de Aguas", descripcion: "Intervenciones artísticas que transforman el espacio público." }
   ];
 
   return (

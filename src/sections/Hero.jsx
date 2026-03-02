@@ -74,7 +74,7 @@ const Hero = () => {
             variants={itemVariants}
             className="font-body text-[#30928f] text-lg md:text-xl font-light max-w-md ml-auto leading-relaxed opacity-80"
           >
-            Uniendo voces y raíces para el <span className="font-semibold text-black">desarrollo social</span> para la educacion y la salud.
+            Uniendo voces y raíces para el <span className="font-semibold text-black">desarrollo social</span> para la educacio, salud y saneamiento de aguas.
           </motion.p>
 
           <motion.div variants={itemVariants} className="mt-12 flex justify-end gap-6 items-center">
