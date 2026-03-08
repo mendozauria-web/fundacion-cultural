@@ -74,7 +74,7 @@ const QuienesSomos = () => {
 
               <div className="max-w-5xl relative z-10">
                 <h3 className="font-title text-7xl md:text-[120px] text-[#30928f] mb-10 leading-none tracking-tighter">
-                  UN PUENTE <br/> <span className="italic">CULTURAL.</span>
+                  UN PUENTE AL <br/> <span className="italic">DESARROLLO DE NUESTRO PAIS</span>
                 </h3>
                 
                 <div className="w-32 h-2 bg-[#30928f] mb-10"></div>
@@ -88,11 +88,18 @@ const QuienesSomos = () => {
                   <span className="bg-[#30928f] text-white p-2 rounded-full group-hover:translate-x-2 transition-transform">→</span>
                 </button>
               </div>
-              <div className="absolute right-[-15vw] top-1/2 -translate-y-1/2 z-20 w-[35vw]">
+              <div className="absolute right-[-15vw] top-[200px] -translate-y-1/2 z-20 w-[35vw]">
                 <img 
-                  src="/assets/images/quien2.jpg" 
+                  src="/assets/images/quien2.jpeg" 
                   alt="Ilustración o Arte" 
                   className="w-full h-auto object-contain drop-shadow-2xl mix-blend-luminosity"
+                />
+              </div>
+              <div className="absolute right-[-25vw] top-[600px] -translate-y-1/2 z-20 w-[35vw]">
+                <img 
+                  src="/assets/images/quien3.jpeg" 
+                  alt="Ilustración o Arte" 
+                  className="w-[250px] h-auto object-contain drop-shadow-2xl mix-blend-luminosity"
                 />
               </div>
             </div>
